@@ -13,7 +13,7 @@ This project is built to mirror care management + payer analytics workflows you 
 - GitHub Repository: `https://github.com/Rahul9121/healthcare-claims-intelligence-dashboard`
 - Live API Docs (Render): `https://healthcare-claims-risk-api-rahul.onrender.com/docs`
 - Live API Health: `https://healthcare-claims-risk-api-rahul.onrender.com/health`
-- Dashboard (Power BI Public/Tableau Public): `Coming soon`
+- Live Dashboard: `https://healthcare-claims-dashboard-rahul.onrender.com/`
 
 ## Why this project matters
 Healthcare operations teams need fast answers to:
