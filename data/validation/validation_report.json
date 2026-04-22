@@ -1,0 +1,64 @@
+{
+  "generated_at_utc": "2026-04-22T04:56:13.881689+00:00",
+  "row_counts": {
+    "members": 3000,
+    "claims": 18000
+  },
+  "checks": [
+    {
+      "name": "members_unique_member_id",
+      "passed": true,
+      "details": "Member IDs must be unique and non-null."
+    },
+    {
+      "name": "claims_unique_claim_id",
+      "passed": true,
+      "details": "Claim IDs must be unique and non-null."
+    },
+    {
+      "name": "no_missing_values",
+      "passed": true,
+      "details": "Total missing values across both tables: 0."
+    },
+    {
+      "name": "claims_member_fk_integrity",
+      "passed": true,
+      "details": "Claims with unknown member_id: 0."
+    },
+    {
+      "name": "member_age_in_range",
+      "passed": true,
+      "details": "Member age must be between 18 and 100."
+    },
+    {
+      "name": "financial_amount_logic",
+      "passed": true,
+      "details": "paid_amount must be non-negative and <= allowed_amount."
+    },
+    {
+      "name": "date_order_valid",
+      "passed": true,
+      "details": "discharge_date must be on/after service_date."
+    },
+    {
+      "name": "admission_type_valid",
+      "passed": true,
+      "details": "admission_type must be one of ['Elective', 'Emergency', 'Urgent']."
+    },
+    {
+      "name": "diagnosis_group_valid",
+      "passed": true,
+      "details": "diagnosis_group must be one of ['Cardiology', 'Endocrinology', 'Nephrology', 'Oncology', 'Orthopedics', 'Pulmonology']."
+    },
+    {
+      "name": "readmitted_30d_binary",
+      "passed": true,
+      "details": "readmitted_30d must be binary (0/1)."
+    }
+  ],
+  "summary": {
+    "status": "PASS",
+    "passed_checks": 10,
+    "failed_checks": 0
+  }
+}

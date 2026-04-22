@@ -1,0 +1,15 @@
+{
+  "age": 61,
+  "chronic_conditions_count": 1,
+  "risk_score_baseline": 0.4346,
+  "length_of_stay": 5,
+  "prior_ed_visits_6m": 1,
+  "medication_adherence": 0.85,
+  "allowed_amount": 6322.74,
+  "paid_amount": 5401.59,
+  "followup_within_7d": 1,
+  "admission_type": "Urgent",
+  "diagnosis_group": "Nephrology",
+  "provider_specialty": "Family Medicine",
+  "plan_type": "Silver"
+}
